@@ -11,6 +11,6 @@
 // ==/UserScript==
 
 document.location.replace(
-  "https://jojowiki.com" +
+  "https://jojowiki.com/" +
     document.location.href.slice("https://jojo.fandom.com/wiki/".length)
 );
